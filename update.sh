@@ -3,7 +3,7 @@
 BASEDIR=$(dirname $0)
 export LD_LIBRARY_PATH=${BASEDIR}
 
-BRANCH=beta
+BRANCH=release
 ARCH=x64_linux
 
 wget "https://cdn.altv.mp/server/$BRANCH/$ARCH/altv-server" -O ./altv-server
